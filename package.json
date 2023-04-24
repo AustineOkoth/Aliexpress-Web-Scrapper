@@ -1,0 +1,22 @@
+{
+  "name": "webscrapper(node.js)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^19.9.1",
+    "selenium": "^2.20.0"
+  },
+  "devDependencies": {
+    "aliexpress-product-scraper": "^1.0.6"
+  }
+}
